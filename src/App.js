@@ -39,15 +39,17 @@ function App() {
 
   return (
     <div className="App">
-      <CaptureModal
-        isOpen={isOpenCaptureModal}
-        onCancel={handleCloseCaptureModal}
-        imageToCrop={imageToCrop}
-        goBack={handleGoBack}
-      />
-      <button className="Button" onClick={startCapture}>
-        Open capture modal
-      </button>
+      <div className="Wrapper">
+        <CaptureModal
+          isOpen={isOpenCaptureModal}
+          onCancel={handleCloseCaptureModal}
+          imageToCrop={imageToCrop}
+          goBack={handleGoBack}
+        />
+        <button className="Button" onClick={startCapture}>
+          Open capture modal
+        </button>
+      </div>
     </div>
   );
 }
