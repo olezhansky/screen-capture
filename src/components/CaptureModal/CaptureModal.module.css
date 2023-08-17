@@ -7,10 +7,10 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-}
-.header button {
-    cursor: pointer;
+    align-items: center;
+    & button {
+        cursor: pointer;
+    }
 }
 .main {
     margin-top: 16px;
@@ -18,9 +18,6 @@
 }
 .bottom {
     text-align: center;
-}
-.bottom button {
-    cursor: pointer;
 }
 
 
