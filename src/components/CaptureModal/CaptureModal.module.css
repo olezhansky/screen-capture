@@ -1,26 +1,24 @@
 .wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
 }
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    & button {
-        cursor: pointer;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header button {
+  cursor: pointer;
 }
 .main {
-    margin-top: 16px;
-    height: calc(100vh - 160px);
+  margin-top: 16px;
+  height: calc(100vh - 160px);
 }
 .bottom {
-    text-align: center;
+  text-align: center;
 }
-
-
-
-
-
+.bottom button {
+  cursor: pointer;
+}
