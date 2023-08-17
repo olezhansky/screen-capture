@@ -90,9 +90,7 @@ const CaptureModal = ({ isOpen, onCancel, imageToCrop, goBack }) => {
           />
         </div>
         <div className={styles.bottom}>
-          <button height={44} width={180} onClick={handleCropImage}>
-            Send cropped image
-          </button>
+          <button onClick={handleCropImage}>Send cropped image</button>
         </div>
       </div>
     </Modal>
