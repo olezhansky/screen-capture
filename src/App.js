@@ -45,9 +45,7 @@ function App() {
         imageToCrop={imageToCrop}
         goBack={handleGoBack}
       />
-      <button className="Button" onClick={startCapture}>
-        Open capture modal
-      </button>
+      <button onClick={startCapture}>Open capture modal</button>
     </div>
   );
 }

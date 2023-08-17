@@ -1,12 +1,12 @@
 body {
   margin: 0;
 }
+button {
+  cursor: pointer;
+}
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-.Button {
-  cursor: pointer;
 }
